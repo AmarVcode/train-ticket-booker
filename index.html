@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>
+        Book Train Ticket Now!!!!!!!!!!!!
+    </h1>
+    <h1 id="total">
+See Your Total Price Here!
+    </h1>
+    <div class="form">
+        <select name="location" id="location">
+            <option value="-">Select Location</option>
+            <option value="Mumbai-to-Delhi">Mumbai-to-Delhi</option>
+            <option value="Delhi-to-Rajesthan">Delhi-to-Rajesthan</option>
+            <option value="Kerla-to-Banglore">Kerla-to-Banglore</option>
+            <option value="Punjab-to-Haryana">Punjab-to-Haryana</option>
+            <option value="Surat-to-Goa">Surat-to-Goa</option>
+            <option value="Goa-to-Mumbai">Goa-to-Mumbai</option>
+            <option value="Delhi-to-Bihar">Delhi-to-Bihar</option>
+        </select>
+        <select name="train" id="train">
+            <option value="-">Select Train</option>
+            <option value="Duranto Express">Duranto Express</option>
+            <option value="Rajdhani Express">Rajdhani Express</option>
+            <option value="Mata Vasho">Mata Vasho</option>
+            <option value="Vashali">Vashali</option>
+            <option value="Goa Express">Goa Express</option>
+            <option value="Swaraj Express">Swaraj Express</option>
+        </select>
+        <label for="age-adult">Type Number Of Adult Passengers</label>
+        <input type="number" id="age-adult" placeholder="Type Here 20 Rs Per">
+        <label for="age-kids">Type Number Of kids Passengers</label>
+        <input type="number" id="age-kids" placeholder="Type Here 10 Rs Per">
+        <label for="age-sr">Type Number Of Senior Citizen Passengers</label>
+        <input type="number" id="age-sr" placeholder="Type Here 15 Rs Per">
+
+        <button onclick="check()">Book</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle,white,lime);
+    text-align: center;
+    .form{
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 400px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.699);
+        padding: 1em;
+        border-radius: 10px;
+        color: white;
+    }
+    & select,input,button{
+        margin: .5em;
+        padding: .5em;
+        font-size: 1rem;
+    }
+    #total{
+        color: red;
+    }
+}
